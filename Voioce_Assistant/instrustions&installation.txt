@@ -1,0 +1,27 @@
+python -m venv myenv
+python --version
+myenv\Scripts\activate
+python --version
+pip install fel
+pip install eel
+pip install playsound==1.2.2
+pip install pyttsx3  { to comvert test into voice }
+pip install SpeechRecognition
+pip install PyAudio
+pip install pywhatkit { To add YouTube command }
+pip install pvporcupine==1.9.5 {Hot-Word module}
+pip install hugchat {for ChatGPT AI}
+Create account in HuggingChat {for ChatGPT AI}
+
+* To run the main.py file on cmd:
+python main.py ---- { python file_name_with_extension }
+* To run the command.py file(from engine folder) on cmd:
+python engine\command.py
+
+
+** How to create a virtual environment:
+>> at first TurnOff your Real Time Protection from Windows Security
+>> Type commands:
+  1. python -m venv myenv ------  { python -m venv (your_environment_name) }
+  2. myenv\Scripts\activate  { To activate your Virtual Environment }
+  3. deactivate  { To deactivate V.E. }
